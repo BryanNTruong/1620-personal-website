@@ -1,5 +1,6 @@
 body{
     background-color: rgb(0,38,66);
+    padding-top: 50px;
 }
 
 nav{
@@ -7,9 +8,35 @@ nav{
 
 }
 
-.info{
-    background-color: rgb(229, 218, 218);
-    display: inline-block;
+
+.nav_menu{
+    background-color: #02040f;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    margin-left: -15px;
+    width: 100%;
+
+}
+
+.nav_menu a{
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.wrap{
+    float: left;
+    margin: 10px
+}
+
+img{
+    height: 600px;
+    width: 400px;
 }
 
 p{
